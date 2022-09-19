@@ -3,8 +3,8 @@ Hello!
 Today we are going to practice overloading some operators.
 
 Specifically, we will be overloading:
- >> (insertion)
- << (extraction)
+ '>>' (insertion)
+ '<<' (extraction)
 
 as they are the most challenging to implement.
 
