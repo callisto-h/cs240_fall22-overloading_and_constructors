@@ -14,6 +14,8 @@ int main(){
     Sample d = b;
     Sample e;
     e = b;
+    Sample arr[10];
+    arr[5] = a;
 
     /**
      * NOTE:

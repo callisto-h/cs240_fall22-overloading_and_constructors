@@ -10,7 +10,8 @@ int main(){
      * ANSWER:
      * 0. Default constructor, value constructor,
      * copy constructor, copy constructor, default constructor,
-     * assignment operator
+     * assignment operator, default constructor (x10), assignment
+     * operator
      *
      */
     Sample a;
@@ -19,6 +20,8 @@ int main(){
     Sample d = b;
     Sample e;
     e = b;
+    Sample arr[10];
+    arr[5] = a;
 
     /**
      * NOTE:
