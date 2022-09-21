@@ -33,7 +33,7 @@ Sample::Sample(Sample const &other){
      * QUESTION:
      * 4. Explain what this line is doing. Maybe draw
      * a picture.
-     * Hint: Why can't we do "this-val_ptr = other.val_ptr"?
+     * Hint: Why can't we do "this->val_ptr = other.val_ptr"?
      */
     this->val_ptr = new int(*other.val_ptr);
 }
@@ -55,6 +55,7 @@ Sample& Sample::operator=(Sample const &other){
         return *this;
     }
 
+    delete val_ptr;
     this->val_ptr = new int(*other.val_ptr);
 
     return *this;

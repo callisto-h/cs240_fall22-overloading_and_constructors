@@ -84,6 +84,7 @@ Sample& Sample::operator=(Sample const &other){
         return *this;
     }
 
+    delete val_ptr;
     this->val_ptr = new int(*other.val_ptr);
 
     return *this;
